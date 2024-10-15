@@ -5,3 +5,5 @@ seaborn 0.12.2
 wordcloud 1.8.2
 spaCy 3.6.3
 tqdm 4.65.0
+!pip install spacy[transformers]
+!python -m spacy download en_core_web_lg
